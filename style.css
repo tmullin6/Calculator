@@ -1,0 +1,20 @@
+.calc-container {
+
+    margin-left: 400px;
+    margin-top: 20px;
+    height: 600px;
+    width: 400px;
+    background-color: navy;
+    border-style: solid;
+    border-radius: 8px;
+    border-color:navy;
+}
+
+.screen {
+    width: 380px;
+    height: 30px;
+    border-color: black;;
+    margin-left: 400px;
+    margin-top: 20px;
+    background-color: white;
+}
