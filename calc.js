@@ -178,7 +178,7 @@ solve.addEventListener("click", () => {
     solution = operate(num1,num2,op)
     
     if (solution.toString().length > 12) {
-        display.textContent="OVERFLOW ERROR";
+        display.textContent="ERROR";
         return;
     }
 
@@ -192,7 +192,7 @@ function add(num1, num2) {
 
     num = num1+num2;
 
-    if (num%1!=0) {
+    if (num%1!=0 && num.toString().length >12) {
         return num.toFixed(2);
     }
     else {
@@ -206,12 +206,13 @@ function subtract(num1,num2) {
 
     num = num1-num2;
 
-    if (num%1!=0) {
+    if (num%1!=0 && num.toString().length >12) {
         return num.toFixed(2);
     }
     else {
         return num;
     }
+    
     
 }
 
@@ -219,7 +220,7 @@ function multiply(num1,num2) {
 
     num = num1*num2;
 
-    if (num%1!=0) {
+    if (num%1!=0 && num.toString().length >12) {
         return num.toFixed(2);
     }
     else {
@@ -232,7 +233,7 @@ function divide(num1,num2) {
 
     num = num1/num2;
 
-    if (num%1!=0) {
+    if (num%1!=0 && num.toString().length >12) {
         return num.toFixed(2);
     }
     else {
