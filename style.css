@@ -36,17 +36,30 @@
     width: 390px;
 }
 
-#clear, #delete {
+#clear {
+
     border: none;
     width: 166px;
     height: 56px;
     margin: 0px 10px 10px 10px;
     text-align: center;
     font-size: 20px;
+    background-color:red;
+}
+
+#delete  {
+
+    border: none;
+    width: 166px;
+    height: 56px;
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 0, 128, 0.411);
 }
 
 
-#num, #add, #subtract, #multiply, #divide, #decimal, #solve {
+#num , #decimal {
     
     height: 70px;
     margin: 10px 15px 10px 10px;;
@@ -54,4 +67,15 @@
     font-weight: bold;
     font-size: 20px;
     background-color:white;
+}
+
+#add, #subtract, #multiply, #divide, #solve {
+
+    height: 70px;
+    margin: 10px 15px 10px 10px;;
+    width: 67px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(48, 47, 47, 0.253);
+
 }
